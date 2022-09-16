@@ -6,12 +6,19 @@ In this Repoistory, we create the solution in ASP.NET CORE 6.
 - Create a User Registration form with the following fields and validations.
 
 Name: Required
+
 Username: Required, MinLength(3)
+
 Email: Required, Email
+
 Password: Required with (1 Uppercase, 1 Number, 1 Special Char and 1 Lowercase Char), Min Length (8 Chars)
+
 ConfirmPassword: Required, Compare
+
 Contact: Regular Expression
+
 Gender: Required (Radio Button)
+
 Accept Terms: Required (Check Box)
 
 Note: Use Bootstrap For UI and Error Messages
